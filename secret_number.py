@@ -12,9 +12,7 @@ while NUM != secret_number:
 
     elif NUM < secret_number:
         print('NUM is less than secret number.')
-
-
-    elif NUM == secret_number:
+    else: 
         print('NUM is the secret_number')
         print('You win!')
         break
